@@ -1,0 +1,353 @@
+
+
+[data-fs-scroll] {
+  position: relative;
+}
+
+[data-fs-scroll] .page {
+  position: fixed;
+  list-style: none;
+}
+
+[data-fs-scroll] .page.vertical {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+[data-fs-scroll] .page.horizontal {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+[data-fs-scroll] .page li {
+  width: 8px;
+  height: 8px;
+  background:#f2f2f2;
+  border-radius: 50%;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+[data-fs-scroll] .page li.active {
+  border-radius: 6px;
+  background: #f2f2f2;
+}
+
+[data-fs-scroll] .page.horizontal li {
+  display: inline-block;
+}
+
+[data-fs-scroll] .page.horizontal .active{
+  width: 14px;
+}
+
+[data-fs-scroll] .page.vertical .active {
+  height: 14px;
+}
+
+.text{
+  color: #434790;
+ 
+  
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+.text1{
+  color: #ffff;
+ 
+  
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   position:absolute; 
+width:100%; 
+top:40%; 
+
+
+}
+
+.text3{
+  color: #ffff;
+ 
+  
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+   position:absolute; 
+margin-top: 3%;
+margin-left: 15%;
+  
+
+}
+
+.leftstr
+ {
+    float: left;
+    width: 3%; 
+    margin-left: 750px;
+}
+
+.rightstr {
+    text-align: left;
+
+   }
+h4:before {
+  content:  '\3B2';
+
+}
+h1.h1:after {
+  content: '\3B2';
+  text-align: center;
+}
+
+#elli {
+  border-radius: 50%;
+  background-color: #434790;
+  margin-left: 800px;
+
+  width: 63px;
+  height: 63px;
+  
+}
+
+.elli1 {
+  border-radius: 50%;
+  background-color: #434790;
+  margin-right: 500px;
+  display: inline-block;
+  width: 63px;
+  height: 63px;
+  
+}
+
+#elli2 {
+  border-radius: 50%;
+  background-color: #434790;
+  margin-right: 30%;
+
+  width: 63px;
+  height: 63px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.round1 {
+  width: 2px;
+  height: 2px;
+  border: 2px solid red;
+  border-radius: 50%;
+  margin-left: 56%;
+  margin-top: 75px;
+-moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+ float: left;
+  
+}
+
+.round2 {
+  width: 2em;
+  height: 2em;
+  border: 2px solid red;
+  border-radius: 50%;
+  margin-left: 27%;
+  margin-top: 10px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  float: left;
+ 
+  
+}
+
+.round3 {
+ 
+  border: 2px solid red;
+  border-radius: 50%;
+  margin-left : 80%;
+  margin-top: 15px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+
+ 
+ 
+ 
+  
+}
+
+.round5{
+width: 100px;
+  height: 100px;
+  background:  radial-gradient(white, #FFA9A1);
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.round4 {
+ 
+  border: 1px solid red;
+  border-radius: 50%;
+  margin-left: 47%;
+-moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+ 
+  
+
+}
+.text{
+  margin-left: 15%;
+  padding-top: 5%;
+}
+
+.text11{
+margin-left: 57%;
+  padding-top: 5%;
+  color: #434790;
+ 
+  
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.text12{
+  color: #434790;
+  padding-top: 180px;
+  align-content: left;
+  margin-right: 725px;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.text13{
+margin-left: 79%; padding-top: 7%;
+  color: #434790;
+ 
+  
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.text14 {
+  margin-left: 44%; margin-top: 12px; float: left;
+  color: #434790;
+ 
+  
+   text-align: left;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.i6{
+ margin-left: 11%; margin-top: 12%; float: left;
+
+}
+ 
+.i3{
+ padding-top: 170px;
+ text-align: right;
+
+}
+.i5{
+  padding-top: 13%; margin-right: 38%;
+}
+
+.i4{
+   margin-left: 60%;
+}
+
+.ice1{
+  text-align: left;
+
+}
+
+.ice2{
+  margin-top: 5%;
+  text-align: right;
+}
+
+.ice3{
+  bottom: 0; position: absolute; left: 320px;
+
+}
+
+@media (min-width:0) and (max-width: 1024px) {
+.text{
+    padding-top: 170px;
+    margin-left:40px;
+  }
+.round1{
+     margin-left: 565px;
+    margin-top: 15px;
+}
+
+.text11{
+
+    padding-top: 20px;
+margin-left: 40px;
+
+}
+
+.text12{
+  margin-left: 243px;
+  padding-top: 90px;
+
+
+
+}
+ 
+.round2{
+     margin-left: 269px;
+    margin-top: 10px;
+}
+
+
+.text13{
+
+  
+}
+
+
+
+.text14 {
+
+   margin-left: 430px;
+
+    
+
+}
+
+.round4{
+     margin-left: 465px;
+
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+}

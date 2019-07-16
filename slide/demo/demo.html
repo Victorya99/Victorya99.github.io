@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+  <title>slide</title>
+  <meta name="viewport" content="width=1024, initial-scale=1">
+  <link rel="stylesheet" href="../src/jquery.fsscroll.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet"  href="../jquery.touchSwipe.min.js">
+  
+  
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    html, body {
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial,"Microsoft YaHei",sans-serif;
+     
+   
+   
+     
+    }
+
+
+
+
+
+    
+
+    .container, .sections, .section {
+      position: relative;
+      height: 100%;
+      text-align: center;
+      color: #fff;
+    }
+   
+    .section:first-child h1 {
+      animation: first-show .3s;
+    }
+    .section0 {
+    
+    background-image: url("more1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
+
+    
+   
+     
+
+      
+    }
+    .section2 {
+      background-image: url(more3.png);
+       background-size: cover;
+      background-repeat: no-repeat;
+      
+     
+      background-position: center;
+    
+    }
+    
+    .section1{
+      background-image: url(more2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+     
+      background-position: center;
+      
+
+      
+
+    }
+    .section h1.text-animate {
+      left: 0px;
+      transform: translateX(-100%);
+    }
+
+   
+    @keyframes first-show {
+      0% {
+        left: 0px;
+        transform: translateX(-100%);
+      }
+      100% {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+   #color {
+    transition-property: background-color;
+    transition-duration: 3s;
+  }
+  #color {
+ 
+  text-align: center; 
+  text-decoration: none; 
+  width: 2em;
+  height: 2em;
+  border: 2px solid red;
+  
+} 
+
+@keyframes glowing { 
+  0% { border-color:  red; box-shadow: 0 0 2px #074673; } 
+   50% { border-color:  #FA8072; box-shadow: 0 0 2px #074673; } 
+    100% { border-color:  #FFC0CB; box-shadow: 0 0 2px #074673; } 
+
+  50% { background:   #FA8072; box-shadow: 0 0 9px #0e87de; } 
+  100% { background:  #FFC0CB; box-shadow: 0 0 2px #094d7d; } 
+} 
+
+#color { 
+  animation: glowing 1500ms infinite; 
+}
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div.contentblock {width: 970px;} }
+
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container" data-fs-scroll>
+    <div class="sections" >
+      <div class="section section0">
+         <div>
+         <h1 class="text">Всегда ли цели терапии СД2 <br>на поверхности?</h1>
+        <p class="round1" id="color" align="left" > <p class="text11";> Цель по HbA1c</p></p>
+      </div>
+  
+         
+         
+         <div class="text12";><a>Гипоклемия</a> </div>
+         <p class="round2" id="color"></p>
+         
+
+         
+           <div>
+          <p class="text13" >СС риски</p>
+
+         
+          <p class="text14" >Осложнения СД</p>
+          <p class="round3" id="color">  
+         </p> 
+         
+           
+           <p class="round4" id="color"></p>
+         </div>
+
+
+
+
+
+
+
+      </div>
+
+      <div class="section section1">
+        <h1 class="text1">Основа терапии -<br>патогенез СД2</h1>
+        <p class="i6">
+        <img src="ice6.png"  ></p>
+        <p class="i3">
+        
+        <img src="ice3.png"  width=170px; height=190px;><br></p>
+         <p class="i5"> <img src="ice5.png"  width="120px" height="120px" ></p>
+         <p class="i4">
+          <img src="ice4.png" width=90px; height=90px;></p>
+        
+        
+
+      </div>
+      <div class="section section2">
+        <h1 class="text3">Звения патогенеза СД2</h1><br>
+               
+
+
+
+         <div class="ice1">
+    <p><img src="img/ice8.png" width="70" height="70"></p>
+
+       </div>
+<div>
+      <p><h1 class="leftstr" style="position: sticky;">1 </h1><h4 class="rightstr" >-клетки</h4></p> 
+           <div id="elli" style="position: sticky;" > <p><h1 class="h1">  </h1></p></div>
+     
+
+
+       
+      <div> 
+        <p > <h1 style="margin-right: 40%;">8</h1><p style="float: left; margin-left: 420px;">Микрофлора <br> кишечника</p> </p> <div class="elli1"> <img src="img/brain2.png" width="40" height="70" style="float: left;"> </div> <div class="elli1"> <img src="img/brain.png" width="50" height="50" style="float: right;"></div> 
+
+
+     </div>
+            <br><br>
+    <div>
+
+     <p > <h1 style="margin-right: 40%;">9</h1><p style="float: left;margin-left: 300px;" >Насыщение имунной <br> регуляции/воспаление</p>  </p>    <div class="elli1" style="position: sticky; margin-right: 1030px;"> <img src="img/infection.png" width="50" height="50" style="float: left;"></div> 
+     
+
+    </div>
+              
+            
+
+        <p > <h1 style="margin-right: 40%;">10</h1><p style="float: left;margin-left: 400px;" > Желудок</p>  </p>    <div class="elli1" style="position: sticky;  margin-right: 1030px;" > <img src="img/stomach.png" width="50" height="50"></div>
+
+
+
+
+
+
+           
+         <div class="ice2">
+     <p><img src="img/ice9.png" width="150" height="150"></p>
+       </div>  
+
+       <div class="ice3">
+         <p><img src="img/ice7.png" width="210" height="200"></p>
+       </div> 
+
+      </div>
+      
+    </div>
+  </div>
+
+  <script src="./jquery.min.js"></script>
+  <script src="../src/jquery.fsscroll.js"></script>
+
+
+  
+
+
+  <script>
+    $('.container').fsScroll({
+
+      beforeScroll: function(el, index) {
+        el.find('h1').addClass('text-animate');
+      }
+
+      afterScroll: function(el, index) {
+        el.find('h1').removeClass('text-animate');
+      }
+
+
+
+
+    })
+
+  </script>
+
+
+
+
+
+
+</body>
+</html>
